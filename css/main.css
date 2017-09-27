@@ -1,17 +1,20 @@
 body {
-    background-color: #f6f6f6;
+    background-color: #fff;
     width: 100%;
     margin: 20px auto;
-    font: normal 13px/100% sans-serif;
+    font: normal 13px/100% sans-serif !important;
     color: #444;
 }
+
 .header-title {
-    padding-top: 18px;
-    padding-left: 50px;
+    font-size: 20px !important;
+    line-height: 2 !important;
+    padding-top: 10px !important;
+    padding-left: 50px !important;
     color: #fff;
 
 }
-.container {
+.demo-container {
     display:flex;
     flex-direction: row;
     flex-wrap:wrap;
@@ -30,25 +33,27 @@ body {
     display:block;
 }
 .header {
-    background-color: #000;
+    background-color: #131313;
     width: 100%;
-    height: 50px;
+    height: 70px;
     margin-bottom:50px;
 }
 .title-style {
     color:#fff;
     padding-left:50px;
     padding-right:50px;
+    font-size: 20px !important;
+    line-height: 0px !important;
 }
 .ad-title {
-    background-color: #000;
+    background-color: #131313;
     width: 100%;
     height: 50px;
     margin-bottom:10px;
 }
 
 .footer {
-    background-color: #000;
+    background-color: #131313;
     width: 100%;
     height: 300px;
     margin-top:50px;
@@ -67,7 +72,7 @@ div {
     display: none;
 }
 a, a:visited {
-    color: #33739E;
+    color: #f65f20;
     text-decoration: none;
     display: block;
     margin: 10px 0;
@@ -75,13 +80,24 @@ a, a:visited {
 a:hover {
     text-decoration: none;
 }
+.demo-pagination {
+  position: relative;
+  float: left;
+  padding: 6px 12px;
+  margin-left: -1px;
+  line-height: 1.42857143;
+  color: #337ab7;
+  text-decoration: none;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
 #loadMore {
     width:300px;
-    height:20px;
+    /*height:20px;*/
     margin:0 auto;
     padding: 10px;
     text-align: center;
-    background-color: #33739E;
+    background-color: #f65f20;
     color: #fff;
     border-width: 0 1px 1px 0;
     border-style: solid;
@@ -94,5 +110,5 @@ a:hover {
 }
 #loadMore:hover {
     background-color: #fff;
-    color: #33739E;
+    color: #f65f20;
 }
